@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 model = YOLO('yolov8l.pt')
 
 # Carregar a imagem em que o YOLO será aplicado
-image_name = 'praca-sete'  # Substitua pelo caminho da sua imagem
-image_ext = '.png'
+image_name = 'cachorro'  # Substitua pelo caminho da sua imagem
+image_ext = '.jpg'
 image_path = image_name + image_ext
 image = cv2.imread(image_path)
 
